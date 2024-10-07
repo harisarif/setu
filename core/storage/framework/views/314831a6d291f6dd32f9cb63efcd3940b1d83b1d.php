@@ -1,0 +1,1 @@
+<?php /**PATH D:\laragon\www\setu\situ_foundation\core\resources\views/templates/basic/sections/team.blade.php ENDPATH**/ ?>

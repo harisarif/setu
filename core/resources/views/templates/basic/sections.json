@@ -1,0 +1,212 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "banner Section",
+
+        "element": {
+            "images": {
+                "image": {
+                    "size": "1980x1280",
+                    "thumb": "120x80"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": false
+        }
+    },
+
+    "about": {
+        "builder": true,
+        "name": "About Us",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "600x360"
+                }
+            },
+            "heading": "text",
+            "description": "textarea-nic"
+        },
+
+        "element": {
+            "images": {
+                "image": {
+                    "size": "600x360"
+                }
+            },
+
+            "heading": "text",
+            "description": "textarea-nic",
+            "modal": false
+        }
+    },
+
+    "campaign": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Campaign Section",
+        "content": {
+            "title": "text",
+            "description": "textarea"
+        }
+    },
+
+    "volunteer": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Volunteer Section",
+        "content": {
+            "title": "text",
+            "description": "text"
+        }
+    },
+
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "description": "textarea",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+
+    "overview": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Overview Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "728x465"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "vedio_Link": "text"
+        }
+    },
+
+    "story": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Story Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images": {
+                "image": {
+                    "size": "728x465",
+                    "thumb": "120x80"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": false
+        }
+    },
+
+    "cta": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Cta Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "728x465",
+                    "thumb": "120x80"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "button_title": "text"
+        }
+    },
+
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    },
+
+    "terms": {
+        "builder": true,
+        "no_selection": true,
+        "name": "terms",
+        "element": {
+            "pagename": "text",
+            "description": "textarea-nic",
+            "modal": false
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "icon": "icon",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "email_address": "text",
+            "contact_number": "text"
+        }
+    },
+
+    "breadcumb": {
+        "builder": true,
+        "no_selection": false,
+        "name": "Breadcumb Section",
+        "content": {
+            "images": {
+                "image": {
+                    "size": "728x465"
+                }
+            }
+        }
+    },
+
+    "footer": {
+        "builder": true,
+        "no_selection": false,
+        "name": "footer Section",
+        "content": {
+            "title": "text",
+            "description": "textarea",
+            "images": {
+                "image": {
+                    "size": "728x465",
+                    "thumb": "120x80"
+                }
+            }
+        }
+    },
+
+    "newsletter": {
+        "builder": true,
+        "no_selection": false,
+        "name": "newsletter Section",
+        "content": {
+            "heading": "text",
+            "sub_heading": "text"
+        }
+    }
+}
