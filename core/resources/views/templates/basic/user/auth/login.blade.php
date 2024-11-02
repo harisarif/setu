@@ -41,8 +41,8 @@
                 </div>
               </div><!-- form-group end -->
 
-                  @include($activeTemplate.'partials.recaptcha')
-                  @include($activeTemplate.'partials.custom-captcha')
+                  {{-- @include($activeTemplate.'partials.recaptcha') --}}
+                  {{-- @include($activeTemplate.'partials.custom-captcha') --}}
                 
             </div>
             

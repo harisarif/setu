@@ -3,7 +3,7 @@
     $volunteers = App\Volunteer::where('status',1)->get();
 @endphp
 <!-- volunteer section start -->
-    <section class="pt-150 pb-150">\
+    <section class="pt-150 pb-150">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-5">

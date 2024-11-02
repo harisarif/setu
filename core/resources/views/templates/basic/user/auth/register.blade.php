@@ -122,9 +122,9 @@
               </div>
 
               
-
+{{-- 
             @include($activeTemplate.'partials.recaptcha')
-            @include($activeTemplate.'partials.custom-captcha')
+            @include($activeTemplate.'partials.custom-captcha') --}}
             
             <div class="form-group">
                 <div class="input-group my-3 d-flex flex-wrap align-items-center">

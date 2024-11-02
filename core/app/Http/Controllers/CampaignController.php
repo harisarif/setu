@@ -271,7 +271,7 @@ class CampaignController extends Controller
         ]);
 
         $notify[] = ['success', 'Create Campaign Success'];
-        return back()->withNotify($notify);
+        return redirect()->route('user.campaigns')->withNotify($notify);
     }
 
     public function showAllFundrise(){

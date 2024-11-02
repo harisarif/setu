@@ -96,15 +96,15 @@ class LoginController extends Controller
 
     protected function validateLogin(Request $request)
     {
-        $customRecaptcha = \App\Extension::where('act', 'custom-captcha')->where('status', 1)->first();
+        // $customRecaptcha = \App\Extension::where('act', 'custom-captcha')->where('status', 1)->first();
         $validation_rule = [
             $this->username() => 'required|string',
             'password' => 'required|string',
         ];
 
-        if ($customRecaptcha) {
-            $validation_rule['captcha'] = 'required';
-        }
+        // if ($customRecaptcha) {
+        //     $validation_rule['captcha'] = 'required';
+        // }
 
         $request->validate($validation_rule);
 
